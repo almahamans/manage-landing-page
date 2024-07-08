@@ -15,6 +15,8 @@ module.exports = {
       'xs': {'max': '439px'}
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar'),
+  ],
 }
 
