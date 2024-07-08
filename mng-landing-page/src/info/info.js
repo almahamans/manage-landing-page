@@ -1,7 +1,7 @@
 import DetailsInfo from "./details_info";
 function Info(){
     return(
-        <div className='flex my-16 mx-32 gap-44'>
+        <div className='flex my-24 mx-32 gap-44'>
             <section className='w-96'>
                 <h1 className='text-indigo-950 text-3xl font-extrabold mb-7'>What's different About manage?</h1>
                 <p className='text-slate-500'>Manage provides all functionality your team needs, without the complexity. Our software is tailor-mode for modern digital product team.</p>
