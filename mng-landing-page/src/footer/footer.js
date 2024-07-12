@@ -7,9 +7,9 @@ import Form from '../form/form';
 function Footer(){
     return(
         <div className='vh-80 bg-black'>
-            <section className='flex gap-52'>
-            <section className='flex flex-col ml-24 gap-16'>
-                <img src={logo} alt="logo" className='fill-white mt-20' width='100%'/>
+            <section className='flex justify-around md:flex-wrap'>
+            <section className='flex flex-col ml-14 gap-16 md:mr-10'>
+                <img src={logo} alt="logo" className='fill-white mt-20 max-w-[100%] min-w-36'/>
                 <section className='flex gap-5'>
                 <img src={fb} alt="facebook-icon" />
                 <img src={insta} alt="instagram-icon" />
@@ -26,11 +26,11 @@ function Footer(){
                 <span>Community</span>
                 <span>Privacy Policy</span>
             </section>
-            <section className='mt-24'>
+            <section className='mt-24 md:mx-auto '>
                 <Form/>
             </section>
             </section>
-            <section className='mt-14 ml-[40%]'>
+            <section className='mt-14 ml-[40%] md:ml-[30%]'>
                 <p className='text-white'>Copyright 2024. All Rights Reserved.</p>
             </section>
         </div>

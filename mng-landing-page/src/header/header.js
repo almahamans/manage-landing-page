@@ -3,18 +3,18 @@ import GetStartBtn from '../buttons/startBtn';
 
 function Header(){
     return(
-    <header className='grid grid-rows-1 grid-cols-12 place-items-center h-24 '>
-        <div className='col-span-3'>
+    <header className='grid grid-rows-1 grid-cols-12 place-items-center h-24 md:grid-cols-11'>
+        <div className='col-span-3 md:col-span-3'>
             <img src={logo} alt='logo'/>
         </div>
-        <div className='grid grid-cols-subgrid col-span-5 text-indigo-950 text-sm cursor-pointer'>
+        <div className='grid grid-cols-subgrid col-span-5 text-indigo-950 text-sm cursor-pointer md:col-span-6'>
         <span className='hover:text-slate-400'>Pricing</span>
         <span className='hover:text-slate-400'>Product</span>
-        <span className='hover:text-slate-400'>About Us</span>
+        <span className='hover:text-slate-400'>AboutUs</span>
         <span className='hover:text-slate-400'>Careers</span>
         <span className='hover:text-slate-400'>Community</span>
         </div>
-        <div className='col-span-4'>
+        <div className='col-span-4 md:col-span-2'>
             <GetStartBtn  />
         </div>
         
