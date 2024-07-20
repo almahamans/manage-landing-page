@@ -7,5 +7,6 @@ This page is responsive to all screen sizes.
 - React JS > Build multibale, reusable components to create landing page.
 - TailWindCss > Make UI design.
 - Formik > Create form and handle the input and errors.
+- Headlessui > Create drop down list in small screen sizes.
 
 #### This landing page is a challenge from [Frontend Mentor](https://www.frontendmentor.io/home)
