@@ -7,10 +7,10 @@ import Form from '../form/form';
 function Footer(){
     return(
         <div className='vh-80 bg-black'>
-            <section className='flex justify-around md:flex-wrap'>
-            <section className='flex flex-col ml-14 gap-16 md:mr-10'>
-                <img src={logo} alt="logo" className='fill-white mt-20 max-w-[100%] min-w-36'/>
-                <section className='flex gap-5'>
+            <section className='flex justify-around md:flex-wrap sm:flex-col-reverse sm:text-center xs:flex-col-reverse xs:text-center'>
+            <section className='flex flex-col ml-14 gap-16 md:mr-10 sm:ml-0 xs:ml-0'>
+                <img src={logo} alt="logo" className='fill-white mt-20 max-w-[100%] min-w-36 sm:w-40 sm:mx-auto xs:w-40 xs:mx-auto'/>
+                <section className='flex gap-5 sm:mx-auto xs:mx-auto'>
                 <img src={fb} alt="facebook-icon" />
                 <img src={insta} alt="instagram-icon" />
                 <img src={yt} alt="youtube-icon" />
@@ -26,11 +26,11 @@ function Footer(){
                 <span>Community</span>
                 <span>Privacy Policy</span>
             </section>
-            <section className='mt-24 md:mx-auto '>
+            <section className='mt-24 md:mx-auto'>
                 <Form/>
             </section>
             </section>
-            <section className='mt-14 ml-[40%] md:ml-[30%]'>
+            <section className='mt-14 text-center'>
                 <p className='text-white'>Copyright 2024. All Rights Reserved.</p>
             </section>
         </div>
